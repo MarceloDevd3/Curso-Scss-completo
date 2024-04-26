@@ -1,0 +1,54 @@
+/*Nesting*/
+
+body {
+    font-size: 100%;
+    h1 {
+        font-size:1em;
+        color:red;
+    }
+
+    p {
+        font-size: 0.5em;
+        span {
+            opacity:0.5;
+            br {
+                display: none;
+            }
+        }
+    }
+}
+
+
+.home {
+    transform: scale(1.1);
+    .home-container {
+          .container-img {
+              img {
+                max-width:100%;
+              }
+          }
+    }
+}
+
+
+
+
+/*nesting aula2*/
+
+/*voce pode fazer assim*/
+
+a:hover {
+  color: #fff;
+}
+
+/*ou assim*/
+
+
+a {
+    color: black;
+
+    &:hover {
+        color: red;
+    }
+}
+
